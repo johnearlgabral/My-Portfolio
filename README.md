@@ -47,12 +47,4 @@ Open `index.html` in a browser, or serve this folder with a local development se
 8. Wait for Vercel to finish building and deploying your portfolio.
 9. Once successful, click **Visit** to view your live website.
 
-### Updating your website
 
-Whenever you make changes to your portfolio:
-
-1. Save your updated files.
-2. Push the changes to your GitHub repository.
-3. Vercel will automatically redeploy your website.
-
-Your portfolio will be accessible through your Vercel domain (for example, `your-portfolio.vercel.app`).
