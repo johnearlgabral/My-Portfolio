@@ -29,3 +29,30 @@ Open `index.html` in a browser, or serve this folder with a local development se
 3. Under **Build and deployment**, select **Deploy from a branch**.
 4. Choose the `main` branch and `/ (root)` folder, then save.
 5. After GitHub Pages finishes deploying, open the URL shown in the Pages settings.
+
+## Deploy with Vercel
+
+1. Push your portfolio project to a GitHub repository.
+2. Visit [Vercel](https://vercel.com/).
+3. Sign in using your GitHub account.
+4. Click **Add New → Project**.
+5. Find your portfolio GitHub repository and click **Import**.
+6. Configure your project:
+   - **Framework Preset:** Other
+   - **Root Directory:** `./`
+   - **Build Command:** Leave empty
+   - **Output Directory:** Leave empty
+   - **Install Command:** Leave empty
+7. Click **Deploy**.
+8. Wait for Vercel to finish building and deploying your portfolio.
+9. Once successful, click **Visit** to view your live website.
+
+### Updating your website
+
+Whenever you make changes to your portfolio:
+
+1. Save your updated files.
+2. Push the changes to your GitHub repository.
+3. Vercel will automatically redeploy your website.
+
+Your portfolio will be accessible through your Vercel domain (for example, `your-portfolio.vercel.app`).
