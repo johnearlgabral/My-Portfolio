@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="#home" class="logo">MY PORTFOLIO</a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">BSIT STUDENT | ASPIRING IT PROFESSIONAL</p>
+
+        <h1>Hello, I'm <span>John Earl Gabral.</span></h1>
+
+        <h2>Learning Today. Building Tomorrow.</h2>
+
+        <p>
+            I am an Information Technology student passionate
+            about technology, programming, and web development.
+            I enjoy learning new skills and creating useful
+            digital solutions.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn-outline">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/profile-photo.jpg" alt="John Earl Gabral">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section light">
+    <div class="section-heading">
+        <p class="eyebrow">01 / GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-content">
+        <div>
+            <h3>Aspiring IT Professional</h3>
+
+            <p>
+                My name is John Earl Gabral. I am currently
+                pursuing a Bachelor of Science in Information
+                Technology. I am interested in programming,
+                web development, and database management.
+            </p>
+
+            <p>
+                I consider myself hardworking, responsible,
+                and willing to learn new things. My goal is
+                to improve my technical skills and become
+                a successful IT professional.
+            </p>
+        </div>
+
+        <div class="education">
+            <h3>Educational Background</h3>
+
+            <h4>Bachelor of Science in Information Technology</h4>
+
+            <p>La Consolacion University Philippines</p>
+            <p>2023 - Present</p>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <div class="section-heading">
+        <p class="eyebrow">02 / WHAT I WORK WITH</p>
+        <h2>Technical <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Java, PHP, Python</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Database</h3>
+            <p>MySQL</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Development Tools</h3>
+            <p>GitHub, VS Code, XAMPP</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section light">
+    <div class="section-heading">
+        <p class="eyebrow">03 / MY WORK</p>
+        <h2>My <span>Projects</span></h2>
+    </div>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/project1.jpg" alt="Student Task Manager application screenshot">
+            </div>
+            <h3>Student Task Manager</h3>
+            <p>
+                The Student Task Manager is an Android application designed to help students organize and monitor their tasks.
+            </p>
+            <span>Java | Kotlin | Android Studio</span>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/project2.png" alt="Face Detection System project screenshot">
+            </div>
+            <h3>Face Detection System</h3>
+            <p>
+                A system designed to detect and recognize human faces and to collect data, train a model, and implement
+                real-time face detection.
+            </p>
+            <span>Python | OpenCV | PyCharm</span>
+        </div>
+
+        <div class="project-card featured-project">
+            <div class="project-image">
+                <img src="assets/project3.png" alt="UBMSConnect project preview">
+            </div>
+            <h3>UBMSConnect</h3>
+            <p>
+                An efficient event, facility, and activity management for a safer and more connected campus.
+            </p>
+            <span>PHP | MySQL | HTML | CSS</span>
+        </div>
+
+    </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+    <div class="section-heading">
+        <p class="eyebrow">04 / MY MILESTONES</p>
+        <h2>Achievements & <span>Activities</span></h2>
+    </div>
+
+    <div class="achievement-list">
+
+        <div class="achievement-card">
+            <h3>Seminars and Webinars</h3>
+            <img src="assets/seminars-webbbinars.png" alt="Seminars and webinars participation">
+        </div>
+
+        <div class="achievement-card">
+            <h3>Certificates and Training</h3>
+            <div class="achievement-gallery">
+                <img src="assets/certificates-training1.png" alt="FreeCodeCamp Microsoft C# certificate">
+                <img src="assets/certifcates-training2.png" alt="Enterprise security course progress certificate">
+                <img src="assets/certificates-training3.png" alt="HTML CSS skill test certificate">
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+    <div class="section-heading">
+        <p class="eyebrow">05 / LET'S CONNECT</p>
+        <h2>Contact <span>Me</span></h2>
+        <p>Feel free to contact me for opportunities and collaboration.</p>
+    </div>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+            <h3>Email</h3>
+            <a href="mailto:johearlgabral@gmail.com">
+                johearlgabral@gmail.com
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <h3>GitHub</h3>
+            <a href="https://github.com/johnearlgabral/johnearl"
+               target="_blank" rel="noopener noreferrer">
+                github.com/johnearlgabral/johnearl
+            </a>
+        </div>
+
+        <div class="contact-card">
+            <h3>Location</h3>
+            <p>Sto. Niño, Plaridel, Bulacan, Philippines</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© <span id="year"></span> John Earl Gabral | Personal Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
